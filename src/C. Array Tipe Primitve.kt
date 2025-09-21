@@ -3,9 +3,11 @@ fun main(args: Array<String>) {
     x[0] = x[1] + x[2]
     x.forEach { print(it.toString() + ' ') }
     print('\n')
+    //menyusun huruf dari kecil kebesar
     x.sort()
     x.forEach { print("$it") }
     println(" OK")
+    //menyusun huruf dari besar ke kecil
     x.reverse()
     x.forEach { print("$it") }
     println(" OK")
