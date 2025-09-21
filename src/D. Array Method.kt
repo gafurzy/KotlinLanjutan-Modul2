@@ -1,6 +1,7 @@
 fun main(args: Array<String>) {
     //Array methods
     //sort()
+    //sesuai nilai berdasarkan tabel ASCII
     val simpsonsA = arrayOf("Homer", "Marge", "Bart", "Lisa", "Meggie")
     simpsonsA.sort()
     for (simpson in simpsonsA) {
@@ -29,6 +30,7 @@ fun main(args: Array<String>) {
     val simpsonsD = arrayOf("Homer", "Marge", "Bart", "Lisa", "Meggie")
     val simpson = "Lisa"
     val position = simpsonsD.indexOf(simpson)
+    println(position) //posisi lisa
     if (position != -1) {
         println("Yeah, that's my number ${position + 1} Simpson!")
     } else {
